@@ -1,46 +1,51 @@
 # Heart Disease Prediction
 A Machine Learning project that predicts whether a person is likely to have heart disease based on selected health and demographic features.
 
-📌 Overview
-The goal of this project is to build a classification model that can identify patterns associated with heart disease.
 
-🛠️ Technologies
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Jupyter Notebook
+## 📌 **Overview**
 
-🤖 Models Used
-Logistic Regression
-Random Forest
+The goal of this project is to build a machine learning model that can identify patterns associated with heart disease and provide predictions based on user input.
 
-📊 Results
-The models were trained and evaluated using standard classification metrics such as:
-Accuracy
-Precision
-Recall
-F1 Score
 
-Best Model: [Your best model]
-Accuracy: [Your accuracy]%
+## 🛠️ **Tech Stack**
+- Python
+- Pandas
+- Numpy
+- Seaborn
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-🔍 What I Did
-Cleaned and explored the dataset
-Performed exploratory data analysis
-Preprocessed the features
-Trained multiple classification models
-Compared model performance
-Selected the best-performing model
 
-🚀 How to Run
+## 🤖 **Machine Learning**
+- **Problem :** Binary Classification
+- **Algorithm :** Logistic Regresssion
+- Data Preprocessing
+- Model Training
+- Model Evaluation
+
+
+## 🔍 **What I Did**
+- Cleaned and prepared the dataset
+- Performed data preprocessing
+- Split the data into training and testing sets
+- Trained a Logistic Regression model
+- Evaluated the model performance
+- Integrated the trained model into a Streamlit web application
+
+
+## 🚀 **Live Demo** 
+👉 **[Try the Heart Disease Prediction App](https://heartdiseaseprediction-7dxuqtxuxdnntpv6whpygk.streamlit.app/)**
+
+
+## 📊 **Results**
+**Model Accuracy:** 81 %
+
+
+## 💻 **How to Run** 
 pip install -r requirements.txt
+streamlit run app.py
 
-Then open the Jupyter Notebook:
 
-heart_disease_prediction.ipynb
-
-⚠️ Disclaimer
-This project is for educational purposes only and is not intended for medical diagnosis.
+## ⚠️ **Disclaimer**
+This project is for **educational purposes only** and is not intended for medical diagnosis.
